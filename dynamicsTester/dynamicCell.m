@@ -41,7 +41,7 @@
     barHeight=barHeigh;
     _accessoryView=[[stackView alloc] init];
     _layoutManager=nil;
-    _swipeToDismiss=YES;
+    self.swipeToDismiss=YES;
     self.axis=UILayoutConstraintAxisVertical;
     self.distribution=UIStackViewDistributionFill;
     self.alignment=UIStackViewAlignmentFill;
@@ -115,6 +115,16 @@
     return YES;
 }
 
+-(void)setSwipeToDismiss:(BOOL)swipeToDismiss
+{
+    _barView.scrollEnabled=swipeToDismiss;
+}
+
+-(BOOL)swipeToDismiss
+{
+    return _barView.scrollEnabled;
+}
+
 -(void)tapBar
 {
     if(_accessoryView!=nil)
@@ -147,7 +157,7 @@
 -(void)configureBarView
 {
     _barView=[self defaultBarView];
-    _barView.scrollEnabled=_swipeToDismiss;
+    _barView.scrollEnabled=self.swipeToDismiss;
     [self addArrangedSubview:_barView];
 }
 
