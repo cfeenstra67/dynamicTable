@@ -1,7 +1,7 @@
 # dynamicTable
 This is a UIViewController subclass that leverages UIStackView to create a dynamic table that allows you to present a drop-down "accessory view" when you select a row.  Animated row insertions and deletions are also included.
 
-In order to create a dynamicCell, either subclass dynamicCell and be sure to override configureBarView and configureAccessoryView (returning nil in the latter if you don't want an accessory view for that cell).
+In order to create a dynamicCell, either subclass dynamicCell and be sure to override configureBarView and configureAccessoryView (returning nil in the latter if you don't want an accessory view for that cell) or use one of the default initialization methods, adding custom subviews to the barView and accessoryView as necessary.
 
 The dynamic table is implemented as a view controller as opposed to a view; this is primarily because the entire class relies on UIStackView's engine, which in turn relies on autolayout.  When trying to set everything up programmatically in a view, the UIStackView didn't function properly.  Being a view controller, however, allows for greater customization of the class, and it can be used as a view if desired.
 
