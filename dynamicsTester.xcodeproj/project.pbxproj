@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		3290A7361E4B9FA400042C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290A7351E4B9FA400042C26 /* main.m */; };
 		3290A7391E4B9FA400042C26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290A7381E4B9FA400042C26 /* AppDelegate.m */; };
-		3290A73C1E4B9FA400042C26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290A73B1E4B9FA400042C26 /* ViewController.m */; };
 		3290A73F1E4B9FA400042C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3290A73D1E4B9FA400042C26 /* Main.storyboard */; };
 		3290A7421E4B9FA500042C26 /* dynamicsTester.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3290A7401E4B9FA500042C26 /* dynamicsTester.xcdatamodeld */; };
 		3290A7441E4B9FA500042C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3290A7431E4B9FA500042C26 /* Assets.xcassets */; };
 		3290A7471E4B9FA500042C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3290A7451E4B9FA500042C26 /* LaunchScreen.storyboard */; };
 		3290A7521E4B9FA500042C26 /* dynamicsTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290A7511E4B9FA500042C26 /* dynamicsTesterTests.m */; };
 		3290A75D1E4B9FA600042C26 /* dynamicsTesterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290A75C1E4B9FA600042C26 /* dynamicsTesterUITests.m */; };
+		3290A77E1E4BECF000042C26 /* stackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290A77C1E4BECF000042C26 /* stackView.m */; };
+		3290A7811E4BED2C00042C26 /* dynamicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290A7801E4BED2C00042C26 /* dynamicCell.m */; };
+		3290A7901E4CE85D00042C26 /* dynamicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290A78F1E4CE85D00042C26 /* dynamicTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,6 @@
 		3290A7351E4B9FA400042C26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3290A7371E4B9FA400042C26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3290A7381E4B9FA400042C26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3290A73A1E4B9FA400042C26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3290A73B1E4B9FA400042C26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3290A73E1E4B9FA400042C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3290A7411E4B9FA500042C26 /* dynamicsTester.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dynamicsTester.xcdatamodel; sourceTree = "<group>"; };
 		3290A7431E4B9FA500042C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +53,12 @@
 		3290A7581E4B9FA600042C26 /* dynamicsTesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynamicsTesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3290A75C1E4B9FA600042C26 /* dynamicsTesterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dynamicsTesterUITests.m; sourceTree = "<group>"; };
 		3290A75E1E4B9FA600042C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3290A77B1E4BECEF00042C26 /* stackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stackView.h; sourceTree = "<group>"; };
+		3290A77C1E4BECF000042C26 /* stackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stackView.m; sourceTree = "<group>"; };
+		3290A77F1E4BED2C00042C26 /* dynamicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynamicCell.h; sourceTree = "<group>"; };
+		3290A7801E4BED2C00042C26 /* dynamicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dynamicCell.m; sourceTree = "<group>"; };
+		3290A78E1E4CE85D00042C26 /* dynamicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynamicTableViewController.h; sourceTree = "<group>"; };
+		3290A78F1E4CE85D00042C26 /* dynamicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dynamicTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +111,12 @@
 			children = (
 				3290A7371E4B9FA400042C26 /* AppDelegate.h */,
 				3290A7381E4B9FA400042C26 /* AppDelegate.m */,
-				3290A73A1E4B9FA400042C26 /* ViewController.h */,
-				3290A73B1E4B9FA400042C26 /* ViewController.m */,
+				3290A78E1E4CE85D00042C26 /* dynamicTableViewController.h */,
+				3290A78F1E4CE85D00042C26 /* dynamicTableViewController.m */,
+				3290A77F1E4BED2C00042C26 /* dynamicCell.h */,
+				3290A7801E4BED2C00042C26 /* dynamicCell.m */,
+				3290A77B1E4BECEF00042C26 /* stackView.h */,
+				3290A77C1E4BECF000042C26 /* stackView.m */,
 				3290A73D1E4B9FA400042C26 /* Main.storyboard */,
 				3290A7431E4B9FA500042C26 /* Assets.xcassets */,
 				3290A7451E4B9FA500042C26 /* LaunchScreen.storyboard */,
@@ -279,10 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3290A73C1E4B9FA400042C26 /* ViewController.m in Sources */,
+				3290A7811E4BED2C00042C26 /* dynamicCell.m in Sources */,
+				3290A77E1E4BECF000042C26 /* stackView.m in Sources */,
 				3290A7391E4B9FA400042C26 /* AppDelegate.m in Sources */,
 				3290A7421E4B9FA500042C26 /* dynamicsTester.xcdatamodeld in Sources */,
 				3290A7361E4B9FA400042C26 /* main.m in Sources */,
+				3290A7901E4CE85D00042C26 /* dynamicTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
